@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+.topo {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0px;
+    background-color: #2f86d6;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo h1 {
+    font-size: 30px;
+}
+
+#logo p {
+    font-size: 16px;
+    color: #2f86d6;
+    font-weight: 600;
+    color: #fff;
+}
+
+#logo img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+#logo, #links-topo {
+    margin: 0 60px;
+}
+
+#link {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#link-escolhido {
+    background-color: #233032;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#link:hover {
+    background-color: #233032;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#conteudo-principal {
+    padding: 100px 0px;
+}
+  
+#conteudo-principal table{
+    margin: auto;
+}
+  
+.tabela-escondida {
+    visibility: hidden;
+}
+  
+.tabela-cabeçalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+}
+  
+.tabela-cabeçalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+  
+.tabela-cabeçalho h2 {
+    font-size: 36px;
+}
+  
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+  
+.primeira-tabela {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+  
+.bola-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #2f86d6;
+}
+
+#logo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+#logo-rodape h1 {
+    font-size: 30px;
+}
+
+#logo-rodape p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#logo-rodape img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+#rodape-info {
+    margin: 50px auto;
+}
+
+#rodape-info p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#paragrafo-final {
+    margin: 20px auto;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #f1f3f7;
+    padding: 15px;
+    text-align: center;
+}
+
+span {
+    color: #2f86d6;
+}
+
+footer p {
+    font-weight: 500; 
+    font-size: 15px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+  
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in.scale-up {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+  
+.fade-in.scale-up.appear {
+    opacity: 1;
+    transform: scale(1);
+}
+  
+  
