@@ -1,6 +1,6 @@
-# Website Project – AlfaTech Web Hosting Provider
+# Website Project – HostCore Web Hosting Provider
 
-This project was developed from scratch using **HTML5**, **CSS3**, and **JavaScript**, with the goal of simulating the institutional website of a fictional company called **AlfaTech**, specialized in web hosting services.
+This project was developed from scratch using **HTML5**, **CSS3**, and **JavaScript**, with the goal of simulating the institutional website of a fictional company called **HostCore**, specialized in web hosting services.
 
 The main objective was to create a modern, clean, and functional interface, applying core web development concepts with a focus on semantic structure, responsive styling, and smooth user interactions.
 
