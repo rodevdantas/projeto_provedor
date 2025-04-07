@@ -128,6 +128,13 @@ h3 {
     padding: 20px;
 }
 
+#faixa-link a:hover {
+    font-size: 19px;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    padding: 8px;
+}
+
 #faixa-link img {
     margin-right: 20px;
 }
@@ -247,6 +254,13 @@ table tbody td {
     text-decoration: none;
     color: #fff;
     padding: 20px;
+}
+
+#faixa-link2 a:hover {
+    font-size: 19px;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    padding: 8px;
 }
 
 #faixa-link2 img {
